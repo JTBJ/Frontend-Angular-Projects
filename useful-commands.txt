@@ -1,0 +1,6 @@
+=================== useful commands ===================
+*prevent js file generation on build / compile errors
+    tsc --noEmitOnError 03-loop-n-arrays/growableArrays.ts
+
+*create new file from window powershell
+    New-Item -ItemType File -Name
