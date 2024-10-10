@@ -4,3 +4,9 @@
 
 *create new file from window powershell
     New-Item -ItemType File -Name
+
+*compiler throughs errors using get / set accessors cause ES5 and above needed use below if needed
+    tsc --target ES5 --noEmitOnError {file-Name}
+
+* tsconfig.json defines compiler options and project settings. Located in root of project
+    tsc init
